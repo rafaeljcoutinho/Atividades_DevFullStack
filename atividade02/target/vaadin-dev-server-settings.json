@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "C:/Users/Rafael/Desktop/my-todo/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "C:/Users/Rafael/Desktop/my-todo/frontend/generated/jar-resources",
+  "staticOutput": "C:/Users/Rafael/Desktop/my-todo/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "C:\\Users\\Rafael\\Desktop\\my-todo\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "C:\\Users\\Rafael\\Desktop\\my-todo\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "C:/Users/Rafael/Desktop/my-todo/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "C:/Users/Rafael/Desktop/my-todo/src/main/dev-bundle/config",
+  "jarResourcesFolder": "C:/Users/Rafael/Desktop/my-todo/frontend/generated/jar-resources",
+  "themeName": "mytodo",
+  "clientServiceWorkerSource": "C:\\Users\\Rafael\\Desktop\\my-todo\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}
