@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import com.example.application.views.main.ApartamentoService;
+import org.springframework.beans.factory.annotation.Autowired;
+
 import com.vaadin.flow.component.button.Button;
 import com.vaadin.flow.component.dialog.Dialog;
 import com.vaadin.flow.component.grid.Grid;
@@ -21,9 +24,12 @@ public class MainView extends VerticalLayout {
 
     private Edificio edificio;
     private Grid<Apartamento> gridApartamentos = new Grid<>(Apartamento.class);
+    private ApartamentoService apartamentoService;
 
-    public MainView() {
+    @Autowired
+    public MainView(ApartamentoService apartamentoS) {
 
+        this.apartamentoService = apartamentoS;
         edificio = new Edificio(new ArrayList<>());
 
         SplitLayout splitLayout = new SplitLayout();
@@ -55,6 +61,7 @@ public class MainView extends VerticalLayout {
                 if (!existeUnidade) {
                     Apartamento novoApartamento = new Apartamento(numeroUnidade, moradores);
                     edificio.getApartamentos().add(novoApartamento);
+                    apartamentoService.salvarApartamento(novoApartamento); // Adicione esta linha
                 } else {
                     Notification.show("Já existe um apartamento com o número de unidade " + numeroUnidade);
                 }
