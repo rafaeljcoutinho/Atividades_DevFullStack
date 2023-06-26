@@ -1,0 +1,17 @@
+{
+  "frontendFolder": "J:/DevFullStack/PastaGit/Atividades_DevFullStack/atividade02 e 03/frontend",
+  "themeFolder": "themes",
+  "themeResourceFolder": "J:/DevFullStack/PastaGit/Atividades_DevFullStack/atividade02 e 03/frontend/generated/jar-resources",
+  "staticOutput": "J:/DevFullStack/PastaGit/Atividades_DevFullStack/atividade02 e 03/target/classes/META-INF/VAADIN/webapp/VAADIN/static",
+  "generatedFolder": "generated",
+  "statsOutput": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\target\\classes\\META-INF\\VAADIN\\config",
+  "frontendBundleOutput": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\target\\classes\\META-INF\\VAADIN\\webapp",
+  "devBundleOutput": "J:/DevFullStack/PastaGit/Atividades_DevFullStack/atividade02 e 03/src/main/dev-bundle/webapp",
+  "devBundleStatsOutput": "J:/DevFullStack/PastaGit/Atividades_DevFullStack/atividade02 e 03/src/main/dev-bundle/config",
+  "jarResourcesFolder": "J:/DevFullStack/PastaGit/Atividades_DevFullStack/atividade02 e 03/frontend/generated/jar-resources",
+  "themeName": "mytodo",
+  "clientServiceWorkerSource": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\target\\sw.ts",
+  "pwaEnabled": false,
+  "offlineEnabled": false,
+  "offlinePath": "'offline.html'"
+}

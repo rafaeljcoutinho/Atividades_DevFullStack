@@ -1,0 +1,16 @@
+{
+  "productionMode": false,
+  "eagerServerLoad": false,
+  "npmFolder": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03",
+  "node.version": "v18.16.0",
+  "node.download.root": "https://nodejs.org/dist/",
+  "frontendFolder": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\frontend",
+  "connect.javaSourceFolder": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\src\\main\\java",
+  "javaResourceFolder": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\src\\main\\resources",
+  "connect.applicationProperties": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\src\\main\\resources\\application.properties",
+  "connect.openApiFile": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\target\\generated-resources\\openapi.json",
+  "project.frontend.generated": "J:\\DevFullStack\\PastaGit\\Atividades_DevFullStack\\atividade02 e 03\\frontend\\generated",
+  "pnpm.enable": false,
+  "require.home.node": false,
+  "build.folder": "target"
+}

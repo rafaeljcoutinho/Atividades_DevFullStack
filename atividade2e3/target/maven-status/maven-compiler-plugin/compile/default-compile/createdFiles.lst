@@ -1,0 +1,7 @@
+com\example\application\Application.class
+com\example\application\JPAUtil.class
+com\example\application\views\main\EdificioDao.class
+com\example\application\views\main\Morador.class
+com\example\application\views\main\Apartamento.class
+com\example\application\views\main\MainView.class
+com\example\application\views\main\Edificio.class
