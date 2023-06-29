@@ -1,0 +1,185 @@
+{\rtf1\ansi\deff0\deflang2057\plain\fs24\fet1
+{\fonttbl
+{\f0\froman Arial;}
+}
+{\info
+{\createim\yr2023\mo6\dy29\hr1\min11}
+}
+
+\paperw11907\paperh16840\margl1800\margr1800\margt1440\margb1440
+\slmult0\ltrpar\li0
+{\b\fs28
+Arquitetura em microservi\u231\'3fos
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Componentiza\u231\'3f\u227\'3fp
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Unidade ded software que \u233\'3f independente e pode ser tanto substitu\u237\'3fda quanto melhorada.
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Libraries
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs24
+Componentes que est\u227\'3fo ligados a uma linguagem e s\u227\'3fo chamadas atrav\u233\'3fs de 'in-memory function calls'
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Services
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs24
+S\u227\'3fo fora do processo, independentes e chamadas atrav\u233\'3fs de chamadas remotas(RPC) ou requisi\u231\'3f\u245\'3fes Web...
+}
+\par\pard\plain
+\slmult0\ltrpar\li600
+{\fs24
+Possui vantagens quando comparado a Libraries, pois s\u227\'3fo independentes, e assim, quando acontece uma mudan\u231\'3fa, o sistema como um todo n\u227\'3fo precisa ser reconstruido, e sim somente o componente de servi\u231\'3fo que alterou.
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Divis\u227\'3fo
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Inv\u233\'3fs de ter um time de especialistas para cada etapa de um software, como UI, Logica, e banco de dados. A arquitetura de micro servi\u231\'3fos divide em varios pequenos grupos completos, com base nos servi\u231\'3fos que a empresa fornece. E em cada time desses, ter\u225\'3f um especialista em cada \u225\'3frea dessas.
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Cada equipe toma conta da parte do software como um todo, desde produ\u231\'3f\u227\'3fo, manuten\u231\'3f\u227\'3fo , e at\u233\'3f uma parcela de contato com o usu\u225\'3frio e suporte. Para melhorar o pr\u243\'3fprio software. Pois j\u225\'3f conhecem ele melhor do que um time que n\u227\'3fo o construiu.
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Web
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Os times usam princ\u237\'3fpios e protocolos da internet global. Possuem API's para se comunicarem e fornecerem seus servi\u231\'3fos com base em requisi\u231\'3f\u245\'3fes.
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Uma outra abordagem seria o uso da estrutura PubSub, onde voc\u234\'3f transfere uma mensagem em um "barramento" onde quem estiver inscrito receber\u225\'3f a mensagem. Utilizado muito em servi\u231\'3fos de Streaming.
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Governan\u231\'3fa descentralizada
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Voc\u234\'3f pode abrir m\u227\'3fo de certas funcionalidades do seu software para terceiros, que s\u227\'3fo especialistas na \u225\'3frea e v\u227\'3fo lidar com toda parte burocr\u225\'3ftica e fornecer o servi\u231\'3fo tomando os riscos envolvidos.
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Podem tambem ser especialistas em um servi\u231\'3fo especifico, no qual podemos lembrar da frase, "voc\u234\'3f pode focar em v\u225\'3frias frentes e fazer mais ou menos todas elas, ou voc\u234\'3f pode focar em uma e faze-la com maestria."
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Equipes fornecem codigo aberto, para comunidade conseguir contribuir com problemas similares e chegarem em solu\u231\'3f\u245\'3fes de maneiras mais \u225\'3fgeis e eficientes.
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Banco de dados
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Em vez de usar um \u250\'3fnico banco de dados l\u243\'3fgico, cada servi\u231\'3fo de microservi\u231\'3fo pode gerenciar seu pr\u243\'3fprio banco de dados.
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Trade-off entre velocidade de entrega para o usu\u225\'3frio e consistencia de dados.
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Quest\u227\'3fo
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Quais partes do software compensam ser desenvolvidas?
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Quais partes compensam ser tratadas como componentes isolados?
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Quais partes compensam contratar servi\u231\'3fos de terceiros e utilizar uma API?
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Toler\u226\'3fncia a falhas
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Princ\u237\'3fpio de que qualquer chamada pode falhar a qualquer momento e o sistema precisa saber lidar bem com isso
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Acompanhamento de desempenho e feedbacks de cada microservi\u231\'3fo
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Mais f\u225\'3fcil de encontrar erros e corrig\u237\'3f-los
+}
+\par\pard\plain
+\slmult0\ltrpar\li200
+{\fs24
+Infrraestrtutura
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Avan\u231\'3fo da utiliza\u231\'3f\u227\'3fo da Nuvem
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Entrega cont\u237\'3fnua
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Integra\u231\'3f\u227\'3fo cont\u237\'3fnua
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Testes autom\u225\'3fticos
+}
+\par\pard\plain
+\slmult0\ltrpar\li400
+{\fs24
+Implanta\u231\'3f\u227\'3fo autom\u225\'3ftica
+}
+\par\pard\plain
+}
